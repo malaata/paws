@@ -1,0 +1,17 @@
+{
+    "api": {
+        "baseURL": "https://api.paws.community/v1",
+        "authEndpoint": "/user/auth",
+        "questListEndpoint": "/quests/list",
+        "completeTaskEndpoint": "/quests/completed",
+        "claimTaskEndpoint": "/quests/claim"
+    },
+    "files": {
+        "hashFile": "./hash.txt",
+        "userAgentFile": "./user-agent.txt"
+    },
+    "concurrency": 5,
+    "retryAttempts": 3,
+    "maxDelay": 3000,
+    "minDelay": 1000
+}
